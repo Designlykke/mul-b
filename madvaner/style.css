@@ -1,4 +1,5 @@
 .over {
+    color: #006633;
 }
 
 .text {
@@ -11,5 +12,10 @@
 }
 
 .graf {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
+
+@media (max-width:500px) {
+.over {
+    font-size: 25px; !important;
+    }
