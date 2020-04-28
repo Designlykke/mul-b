@@ -57,7 +57,7 @@ function resetAnswer() {
   answerbox.innerHTML = "Your result will show up here!";
 }*/
 
-function myFunction(event) {
+function quizHandler(event) {
         //alert('Tak for dit svar!')
         event.preventDefault();
         //event.stopPropagation();
