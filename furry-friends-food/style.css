@@ -1,0 +1,39 @@
+.navbar {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+#wrapper {
+    width: 400px;
+    margin: 0 auto;
+    background: #f9fafb;
+    padding: 10px 15px;
+    border-radius: 10px;
+  }
+input {
+    margin: 5px 10px;
+}
+button {
+    font-size: 15px;
+    padding: 10px;
+    margin: 20px 0;
+    color: black;
+    border: 0;
+    border-radius: 10px;
+    border-bottom: 3px solid #03772c;
+  }
+  #submit {
+    background: #008d36;
+  }
+  #msgDiv {
+    font-size: 18px;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #373736;
+    text-align: center;
