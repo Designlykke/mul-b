@@ -10,13 +10,30 @@
         <title>Furry Friends Food</title>
     </head>
     <body>
-        <nav class="navbar navbar-light bg-light">
+        <nav class="navbar navbar-light">
+            <a class="hund align-bottom text-decoration-none" href="#">
+                <img src="logo-hund.png" width="75" alt="logo">
+            </a>
             <a class="navbar-brand" href="#">
               <img src="logo.png" width="200" alt="logo" class="image-fluid">
             </a>
-        </nav> 
+            <a class="kat align-bottom text-decoration-none" href="#">
+                <img src="logo-kat.png" width="75" alt="logo">
+            </a>
+        </nav>
+    <div class="d-flex justify-content-center box">
+        <div class="banner img-fluid">
+        <iframe src="banner.html" class="ad" frameBorder="0"></iframe> 
+        </div> 
+    </div>
+
+    
+        <div class="overtext">
+            <h3>Her kan du bestille kvalitetsfoder til dine pelsede venner!</h3>
+        </div>
 
         <div class="container">
+            
             <form class="needs-validation" novalidate>
                 <div class="form-group">
                     <label for="fornavn">Fornavn</label>
@@ -64,10 +81,22 @@
             </form> 
     
         </div>
+        
+
+        <div class="space"> </div>
+        <div class="wrapper">
+            
+            <video autoplay loop muted class="wrapper__video">
+               <source src="video-loop.mp4">
+            </video>
+            
+         </div>
+         <div class="space second"> </div>
+
 
 <div id="wrapper">
     <h5>Tilfredshedsundersøgelse</h5>
-    <p>Her må du meget gerne svare på nogle enkle spørgsmål, <br> omkring din oplevelse på vores side.</p>
+    <p>Her må du meget gerne svare på nogle enkle spørgsmål, omkring din oplevelse på vores side.</p>
         <form id="quiz" onsubmit=quizHandler(event)>
             <h6>Fandt du denne side brugbar?</h6>
             <label><input type="radio" name="q1" value="c1" id="check" required>
@@ -98,6 +127,21 @@
             <p id="msg"></p>
         </div>
     </div>
+    
+    <div class="poser d-flex justify-content-center">
+        <img src="hundepose.png" alt="hundefoderpose" width="150px" class="image-fluid poseh">
+        <img src="kattepose.png" alt="kattefoderpose" width="150px" class="image-fluid posek">
+    </div>
+    
+  
+<footer class="page-footer font-small bg-light">
+    <p class="undertext text-secondary">Hos Furry Friends Food, stræber vi efter at levere et produkt, der er perfekt til vores firbenede venner.<br>
+    Vi bruger kun de bedste råvarer og undgår alle former for korn i vores foder.</p>
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="#" class="text-success"> furryfriendsfood.dk</a>
+    </div>
+   
+  </footer>
 
 
 
