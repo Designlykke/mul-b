@@ -1,17 +1,25 @@
-// Extra small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 200px) { }
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 400px) { ... }
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { }
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+@media screen and (max-width:500px) {
+  .kat {
+      display: none;
+  }
+  .hund {
+    display: none;
+}
+}
+
+
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -24,20 +32,20 @@ body {
     background-color: #7fc199;
 }
 .hund {
-  margin-right: 25px;
+  margin-right: 10px;
 }
 .kat {
-  margin-left: 15px;
 }
 .box {
-  background-color: #7fc199;
-  padding-top: 10px;
+  padding-top: 30px;
   padding-bottom: 20px;
-  margin-bottom: 30px;
 }
 .banner {
   width: 805px;
   height: 260px;
+  
+}
+.ind {
   
 }
 
@@ -56,7 +64,7 @@ body {
 }
 .overtext {
   padding: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .undertext {
   text-align: center;
@@ -126,3 +134,4 @@ button {
     width: 100%;
     color: #373736;
     text-align: center;
+  }
